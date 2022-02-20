@@ -44,5 +44,6 @@ The first value means file_name is the name of the file in which captcha is loca
 
 ## Final sentence :‌
 
-If you have problems or suggestions, also this module will be updated from time to time for security reasons, so don't forget to update
+this module will be updated from time to time for security reasons, so don't forget to update
+
 
