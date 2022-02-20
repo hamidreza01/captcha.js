@@ -44,11 +44,12 @@ const captcha = require('captcha-dot-js');
 })();
 ```
 
-| ```numbers``` 	|  In captcha, have numbers or not 	|
-|---	|---	|
-|  ```lowercase```	|  In captcha, have lowercase alphabet or not	|
-|  ```uppercase``` 	|  In captcha, have uppercase alphabet or not 	|
-|   ```symbols```	|  In captcha, have symbols (special characters) or not 	|
+| Value           	| Description                                          	|
+|-----------------	|------------------------------------------------------	|
+| ```numbers```   	| In captcha, have numbers or not                      	|
+| ```lowercase``` 	| In captcha, have lowercase alphabet or not           	|
+| ```uppercase``` 	| In captcha, have uppercase alphabet or not           	|
+| ```symbols```   	| In captcha, have symbols (special characters) or not 	|
 
 - Recursive values:
 
@@ -59,9 +60,10 @@ const captcha = require('captcha-dot-js');
 ```
 
 Values:
-|  ```file_name``` 	|  Name of the image file (which captcha is drawn in) 	|
-|---	|---	|
-|  ```captcha``` 	|  Captcha value (that is entered in photo) 	|
+| Value           	| Description                                        	|
+|-----------------	|----------------------------------------------------	|
+| ```file_name``` 	| Name of the image file (which captcha is drawn in) 	|
+| ```captcha```   	| Captcha value (that is entered in photo)           	|
 
 ## Final sentence:
 
@@ -106,12 +108,12 @@ const captcha = require('captcha-dot-js');
   });
 })();
 ```
-
-| ```numbers``` 	|  در کپچا، اعداد باشند یا خیر 	|
-|---	|---	|
-|  ```lowercase```	|  در کپچا، حروف کوچک باشند یا خیر 	|
-|  ```uppercase``` 	|  در کپچا، حروف بزرگ باشند یا خیر 	|
-|   ```symbols```	|  در کپچا، نمادها (کاراکترهای ویژه) باشند یا خیر 	|
+| مقادیر          	|                                        توضیحات 	|
+|-----------------	|-----------------------------------------------:	|
+| ```numbers```   	|                    در کپچا، اعداد باشند یا خیر 	|
+| ```lowercase``` 	|                در کپچا، حروف کوچک باشند یا خیر 	|
+| ```uppercase``` 	|                در کپچا، حروف بزرگ باشند یا خیر 	|
+| ```symbols```   	| در کپچا، نمادها (کاراکترهای ویژه) باشند یا خیر 	|
 
 - مقادیر بازگشتی:
 مقادیر بازگشتی مثل مثال زیر است:
@@ -120,8 +122,9 @@ const captcha = require('captcha-dot-js');
 ```
 
 مقادیر:
-|  ```file_name``` 	|   نام عکس (که در آن کپچا کشیده شده است) 	|
-|---	|---	|
-|  ```captcha``` 	|  مقدار کپچا (که در عکس کشیده شده) 	|
+| مقادیر          	|                               توضیحات 	|
+|-----------------	|--------------------------------------:	|
+| ```file_name``` 	| نام عکس (که در آن کپچا کشیده شده است) 	|
+| ```captcha```   	|      مقدار کپچا (که در عکس کشیده شده) 	|
 ## سخن پایانی:
 برای هر گونه پیشنهاد و یا مشکل، ایشو جدیدی ایجاد فرمایید، ضمناً این ماژول (به دلایل امنیتی) زیاد به‌روزرسانی می‌شود؛ پس لطفاً ماژول را همواره آپدیت نگه دارید!
