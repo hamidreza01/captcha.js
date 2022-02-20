@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "generate-password": "^1.7.0",
+    "sharp": "^0.30.1"
+  },
+  "name": "captcha-dot-js",
+  "version": "1.1.5",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["captcha","captcha.js","captcha dot js"],
+  "author": "",
+  "license": "MIT",
+  "description": "JavaScript Captcha Production Module "
+}
