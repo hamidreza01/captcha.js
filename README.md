@@ -40,6 +40,7 @@ const captcha = require('captcha-dot-js');
     lowercase: true,
     uppercase: true,
     symbols: false,
+    difficulty : 1,
   });
 })();
 ```
@@ -50,6 +51,10 @@ const captcha = require('captcha-dot-js');
 | ```lowercase``` 	| In captcha, have lowercase alphabet or not           	|
 | ```uppercase``` 	| In captcha, have uppercase alphabet or not           	|
 | ```symbols```   	| In captcha, have symbols (special characters) or not 	|
+| ```difficulty```   	| Determines the hardness value of captcha  	|
+| ```path```   	| Specifies the storage folder of captcha images   	|
+
+
 
 - Recursive values:
 
@@ -68,6 +73,7 @@ Values:
 ## Final sentence:
 
 If you have problems or suggestions feel free to open issues; Also this module will be updated from time to time for security reasons, So don't forget to update!
+
 
 #  ماژول تولید کپچا برای جاوا اسکریپت (نود جی‌اس)
 
