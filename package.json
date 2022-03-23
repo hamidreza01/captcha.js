@@ -4,7 +4,7 @@
     "sharp": "^0.30.1"
   },
   "name": "captcha-dot-js",
-  "version": "1.1.5",
+  "version": "3.0.0",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
