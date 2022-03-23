@@ -41,6 +41,7 @@ const captcha = require('captcha-dot-js');
     uppercase: true,
     symbols: false,
     difficulty : 1,
+    path : './public'
   });
 })();
 ```
