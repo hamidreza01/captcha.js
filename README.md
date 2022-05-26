@@ -112,6 +112,8 @@ const captcha = require('captcha-dot-js');
     lowercase: true,
     uppercase: true,
     symbols: false,
+    difficulty : 1,
+    path : './public'
   });
 })();
 ```
@@ -121,6 +123,8 @@ const captcha = require('captcha-dot-js');
 | ```lowercase``` 	|                در کپچا، حروف کوچک باشند یا خیر 	|
 | ```uppercase``` 	|                در کپچا، حروف بزرگ باشند یا خیر 	|
 | ```symbols```   	| در کپچا، نمادها (کاراکترهای ویژه) باشند یا خیر 	|
+| ```difficulty```   	| سختی مقدار کپچا را تعیین می‌کند  	|
+| ```path```   	| مکان ذخیره تصویر کپچا را تعیین می‌کند   	|
 
 - مقادیر بازگشتی:
 مقادیر بازگشتی مثل مثال زیر است:
